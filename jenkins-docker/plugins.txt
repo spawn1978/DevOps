@@ -30,7 +30,7 @@ javadoc
 jquery
 jquery-detached
 jsch
-junit
+junitmave
 kubernetes-cd
 mailer
 matrix-project
@@ -41,6 +41,7 @@ parameterized-trigger
 pipeline-build-step
 pipeline-graph-analysis
 pipeline-input-step
+pipeline-maven
 pipeline-milestone-step
 pipeline-model-api
 pipeline-model-declarative-agent

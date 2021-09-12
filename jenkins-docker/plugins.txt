@@ -1,5 +1,4 @@
 ace-editor
-analysis-core
 ant
 antisamy-markup-formatter
 apache-httpcomponents-client-4-api
@@ -7,7 +6,6 @@ authentication-tokens
 branch-api
 build-monitor-plugin
 build-pipeline-plugin
-checkstyle
 cloudbees-folder
 conditional-buildstep
 copyartifact  
@@ -52,7 +50,6 @@ pipeline-stage-step
 pipeline-stage-tags-metadata
 pipeline-stage-view
 plain-credentials
-pmd
 run-condition
 scm-api
 script-security  

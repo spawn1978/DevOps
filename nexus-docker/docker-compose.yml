@@ -9,6 +9,6 @@ services:
       - 8088:8081
     volumes:
       - nexus-data:/nexus-data
-  volumes:
-    nexus-data:
+volumes:
+  nexus-data:
     

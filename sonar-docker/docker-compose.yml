@@ -39,4 +39,3 @@ volumes:
   sonarqube_data:
   sonarqube_db:
   sonarqube_extensions:
-~                               

@@ -20,10 +20,10 @@ services:
         - sonarqube_extensions:/opt/sonarqube/extensions
         - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
 
-    db:
-      image: postgres
-      restart: unless-stopped
-      environment:
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
 
             - POSTGRES_USER=sonarqube
             - POSTGRES_PASSWORD=sonar

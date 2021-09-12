@@ -4,6 +4,8 @@ services:
 
   sonarqube:
     image: sonarqube:8.2-community
+    containner_name: sonar8.2-docker
+    hostname: sonar
     ports:
       - "9000:9000"
     environment:

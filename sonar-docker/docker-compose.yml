@@ -3,6 +3,8 @@ services:
 sonarqube:
 
     image: sonarqube
+    container_name: sonar-docker
+    hostname: sonar-docker
     restart: unless-stopped
     environment:
 

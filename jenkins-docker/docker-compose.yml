@@ -2,7 +2,9 @@ version: '2'
 services:
   master:
     build: .
-    image: aprenderdevops/jenkins:latest
+    image: jenkins/jenkins:latest
+    container_name: jenkns-docker
+    hostname: jenkins-docker
     restart: unless-stopped
     hostname: jenkins
     ports:

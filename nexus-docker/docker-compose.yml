@@ -6,7 +6,7 @@ services:
     hostname: nexus-docker
     restart: always
     ports: 
-      - 8088:8081
+      - 8081:8081
     volumes:
       - nexus-data:/nexus-data
 volumes:

@@ -3,7 +3,7 @@ services:
   master:
     build: .
     image: jenkins/jenkins:latest
-    container_name: jenkns-docker
+    container_name: jenkins-docker
     hostname: jenkins-docker
     restart: unless-stopped
     hostname: jenkins

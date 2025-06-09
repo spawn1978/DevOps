@@ -12,5 +12,5 @@ kubectl get nodes
 kubectl apply -f nginx-deployment.yaml
 # Verify pod created
 kubectl get pods
-
+kubectl port-forward --address 0.0.0.0 service/nginx-service 80:80
 

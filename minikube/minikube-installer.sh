@@ -6,5 +6,11 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 minikube version
 minikube start --driver=docker --force
 snap install kubectl --classic
-#Verify node in minikube
+# Verify node in minikube
 kubectl get nodes
+# Deploy nginx in minikube
+kubectl apply -f nginx-deployment.yaml
+# Verify pod created
+kubectl get pods
+
+

@@ -13,6 +13,8 @@ credentials
 credentials-binding
 deploy
 display-url-api
+Dependency-Check
+dependency-check-jenkins-plugin
 docker-commons
 docker-workflow
 durable-task
@@ -32,6 +34,7 @@ jquery-detached
 jsch
 junitmave
 kubernetes-cd
+kubernetes-cli
 mailer
 matrix-project
 maven-plugin
@@ -91,3 +94,4 @@ pipeline-rest-api
 git 
 jira
 pipeline-maven
+sonar

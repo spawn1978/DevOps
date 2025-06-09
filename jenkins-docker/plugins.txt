@@ -19,6 +19,7 @@ docker-commons
 docker-workflow
 durable-task
 findbugs
+flask
 git
 github
 github-api

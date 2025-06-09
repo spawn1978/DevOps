@@ -76,4 +76,12 @@ pipeline {
             }
         }
     }
+    stage('Escaneo de Configuraciones con Kubescape') {
+        steps {
+            script {
+                sh 'kubescape scan --exclude-namespaces kube-system,kube-public --format junit --output results.xml .'
+            }
+        }
+    }
+}
 }

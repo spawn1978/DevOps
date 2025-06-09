@@ -1,0 +1,10 @@
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl wget apt-transport-https
+sudo apt-get install docker.io -y
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+minikube version
+minikube start --driver=docker --force
+snap install kubectl --classic
+#Verify node in minikube
+kubectl get nodes
